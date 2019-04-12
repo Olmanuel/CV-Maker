@@ -1,0 +1,184 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>CELVZ Youth CV</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        </head>
+        <body>
+        <ul class="nav justify-content-center">
+      <img src="img/Celvz-youth-church-logoblack.png" width="200px" height="120px" />
+    </ul>
+    <div align="center" style="font-family: roboto">
+        <h3>Welcome to the CELVZ Youth Church CV Maker</h3>
+    </div>
+    <div class="container">
+    <div class="panel-body">
+    <form>
+         <!--Basic Information-->
+    <h4>Basic Information</h4>
+    <div class="form-group">
+    <label for="Fullname">Full Name</label>
+    <input type="text" class="form-control" id="Fullname" placeholder="Full Name">
+    </div>
+    <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+    </div>
+    <div class="form-group">
+    <label for="Phonenumber">Phone Number</label>
+    <input type="text" class="form-control" id="Phonenumber" placeholder="Phone number" data-length="11">
+    </div>
+        <!--Work Experience-->
+    <h4>Work Experience</h4>
+    <div class="after-add-more">
+    <div class="form-group">
+    <label for="jobtitle">Job Title</label>
+    <input type="text" class="form-control" id="jobtitle" placeholder="Job Title">
+    </div>
+    <div class="form-group">
+    <label for="companyname">Company Name</label>
+    <input type="text" class="form-control" id="companyname" placeholder="Company Name" >
+    </div>
+    <div class="form-group">
+    <label for="startdate">Start Date</label>
+    <input type="text" class="form-control" id="startdate" placeholder="E.g Aug 2017" >
+    </div>
+    <div class="form-group">
+    <label for="enddate">Endt Date</label>
+    <input type="text" class="form-control" id="enddate" placeholder="E.g Sep 2018" >
+    </div>
+    <div class="input-group-btn"> 
+        <button class="btn btn-success add-more" type="button"><i class="glyphicon glyphicon-plus"></i> Add</button>
+    </div>
+    </div>
+        <!-- Copy Fields -->
+    <div class="copy hide">
+        <div class="hold">
+        <div class="form-group">
+        <label for="jobtitle">Job Title</label>
+        <input type="text" class="form-control" id="jobtitle" placeholder="Job Title">
+        </div>
+        <div class="form-group">
+        <label for="companyname">Company Name</label>
+        <input type="text" class="form-control" id="companyname" placeholder="Company Name" >
+        </div>
+        <div class="form-group">
+        <label for="startdate">Start Date</label>
+        <input type="text" class="form-control" id="startdate" placeholder="E.g Aug 2017" >
+        </div>
+        <div class="form-group">
+        <label for="enddate">Endt Date</label>
+        <input type="text" class="form-control" id="enddate" placeholder="E.g Sep 2018" >
+        </div> 
+        <div class="input-group-btn"> 
+            <button class="btn btn-danger remove" type="button"><i class="glyphicon glyphicon-remove"></i> Remove</button>
+        </div>
+        </div>
+    </div>
+    <!--Qualifications-->
+    <h4>Qualifications</h4>
+    <div class="form-group">
+    <label for="qualifications">Qualifications</label>
+    <textarea class="form-control" id="Qualifications" rows="10"></textarea>
+    </div>
+    <!--Educations-->
+    <h4>Education</h4>
+    <div class="after-add-moree">
+    <div class="form-group">
+    <label for="coursename">Course Name</label>
+    <input type="text" class="form-control" id="coursename" placeholder="Course Name">
+    </div>
+    <div class="form-group">
+    <label for="institute">Institute</label>
+    <input type="text" class="form-control" id="institute" placeholder="Institute" >
+    </div>
+    <div class="form-group">
+    <label for="startdate">Start Date</label>
+    <input type="text" class="form-control" id="startdate" placeholder="E.g Aug 2017" >
+    </div>
+    <div class="form-group">
+    <label for="enddate">Endt Date</label>
+    <input type="text" class="form-control" id="enddate" placeholder="E.g Sep 2018" >
+    </div>
+    <div class="input-group-btn"> 
+        <button class="btn btn-success add-moree" type="button"><i class="glyphicon glyphicon-plus"></i> Add</button>
+    </div>
+    </div>
+        <!-- Copyy Hide-->
+    <div class="copyy hide">
+    <div class="holdd">
+     <div class="form-group">
+    <label for="coursename">Course Name</label>
+    <input type="text" class="form-control" id="coursename" placeholder="Course Name">
+    </div>
+    <div class="form-group">
+    <label for="institute">Institute</label>
+    <input type="text" class="form-control" id="institute" placeholder="Institute" >
+    </div>
+    <div class="form-group">
+    <label for="startdate">Start Date</label>
+    <input type="text" class="form-control" id="startdate" placeholder="E.g Aug 2017" >
+    </div>
+    <div class="form-group">
+    <label for="enddate">Endt Date</label>
+    <input type="text" class="form-control" id="enddate" placeholder="E.g Sep 2018" >
+    </div>  
+    <div class="input-group-btn"> 
+        <button class="btn btn-danger removee" type="button"><i class="glyphicon glyphicon-remove"></i> Remove</button>
+    </div>
+    </div>
+    </div>
+    <!--Interests-->
+    <h4>Interests</h4>
+    <div class="form-group">
+    <label for="interests">Interests</label>
+    <textarea class="form-control" id="Interests" rows="10"></textarea>
+    </div>
+    <!--Reference-->
+    <h4>Reference</h4>
+    <div class="form-group">
+    <label for="reference">Reference</label>
+    <textarea class="form-control" id="Reference" rows="10"></textarea>
+    </div>
+    <div align="center">
+    <button type="submit" class="btn btn-secondary">Submit</button>
+    </div>
+    </form>
+    </div>
+    </div>
+        <footer align="center">
+        <p>© 2019 CELVZ Youth Church</p>    
+        </footer>
+        </body>
+        <script type="text/javascript">
+        // Work Experience
+        $(document).ready(function() {
+          $(".add-more").click(function(){ 
+              var html = $(".copy").html();
+              $(".after-add-more").after(html);
+          });
+          $("body").on("click",".remove",function(){ 
+              $(this).parents(".hold").remove();
+          });
+
+        });
+            
+        //Education       
+        $(document).ready(function() {
+          $(".add-moree").click(function(){ 
+              var html = $(".copyy").html();
+              $(".after-add-moree").after(html);
+          });
+          $("body").on("click",".removee",function(){ 
+              $(this).parents(".holdd").remove();
+          });
+
+        });
+
+    </script>
+    </html>
